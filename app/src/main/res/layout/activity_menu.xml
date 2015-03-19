@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff1111"
+    tools:context=".MenuActivity"
+    >
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/tablo"
+        >
+
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/kayitEkrani"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kayit"
+                />
+        </TableRow>
+        <TableRow android:paddingTop="10dp">
+            <ImageButton
+                android:id="@+id/BulEkrani"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search"
+                />
+        </TableRow>
+        <TableRow android:paddingTop="10dp">
+            <ImageButton
+                android:id="@+id/Hatirlatici"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hatirlatici"/>
+        </TableRow>
+        <TableRow android:paddingTop="10dp">
+            <ImageButton
+                android:id="@+id/ayarlarEkrani"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ayarlar"/>
+        </TableRow>
+
+        </TableLayout>
+
+
+</RelativeLayout>

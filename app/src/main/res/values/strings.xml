@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DictionaryProjectForMobil2015</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sozluk">SozlukActivity</string>
+    <string name="title_activity_kayit">KayitActivity</string>
+    <string name="menu_action_bar_title">MENÜ SEÇİM</string>
+    <string name="to_turkce">Türkçe Kelime</string>
+    <string name="to_english">İngilizce Kelime</string>
+    <string name="to_kaydet">KAYDET</string>
+    <string name="title_activity_arama">AramaActivity</string>
+    <string name="title_activity_hatirlatici">HatirlaticiActivity</string>
+
+   <string-array name="Hatırlatıcı">
+            <item>1 dakika</item>
+            <item>5 dakika</item>
+            <item>10 dakika</item>
+            <item>15 dakika</item>
+            <item>20 dakika</item>
+            <item>30 dakika</item>
+            <item>60 dakika</item>
+   </string-array>
+
+</resources>
